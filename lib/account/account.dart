@@ -449,8 +449,9 @@ class _AccountPageState extends State<AccountPage> {
                   setState((){
                     if (GlobalConfig.dark == true) {
                       GlobalConfig.themeData = new ThemeData(
-                        primaryColor: Colors.white,
-                        scaffoldBackgroundColor: new Color(0xFFEBEBEB),
+                          primaryColor: Colors.white,
+                          scaffoldBackgroundColor: new Color(0xFFEBEBEB),
+                          splashColor: Colors.white //水波纹颜色
                       );
                       GlobalConfig.searchBackgroundColor = new Color(0xFFEBEBEB);
                       GlobalConfig.cardBackgroundColor = Colors.white;

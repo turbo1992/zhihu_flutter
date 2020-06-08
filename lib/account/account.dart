@@ -24,8 +24,8 @@ class _AccountPageState extends State<AccountPage> {
             child: new Row(
               children: <Widget>[
                 new Container(
-                  child: new Icon(Icons.search, size: 18.0,),
-                  margin: const EdgeInsets.only(right: 26.0),
+                  child: new Icon(Icons.search, size: 24.0,),
+                  margin: const EdgeInsets.only(right: 16.0),
                 ),
                 new Expanded(
                     child: new Container(
@@ -35,7 +35,7 @@ class _AccountPageState extends State<AccountPage> {
                 new Container(
                   child: new FlatButton(
                     onPressed: (){},
-                    child: new Icon(Icons.settings_overscan, size: 18.0),
+                    child: new Icon(Icons.settings_overscan, size: 22.0),
                   ),
                   width: 40.0,
                 ),

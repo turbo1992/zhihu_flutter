@@ -21,7 +21,8 @@ class _MarketPageState extends State<MarketPage> {
               child: null
           ),
         ),
-        theme: GlobalConfig.themeData
+        theme: GlobalConfig.themeData,
+        debugShowCheckedModeBanner: false
     );
   }
 

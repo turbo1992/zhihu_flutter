@@ -21,7 +21,8 @@ class _NoticePageState extends State<NoticePage> {
               child: null
           ),
         ),
-        theme: GlobalConfig.themeData
+        theme: GlobalConfig.themeData,
+        debugShowCheckedModeBanner: false
     );
   }
 

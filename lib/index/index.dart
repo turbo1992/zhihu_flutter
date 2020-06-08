@@ -102,7 +102,8 @@ class _IndexState extends State<Index> with TickerProviderStateMixin{
           ),
           bottomNavigationBar: bottomNavigationBar,
         ),
-        theme: GlobalConfig.themeData
+        theme: GlobalConfig.themeData,
+        debugShowCheckedModeBanner: false
     );
   }
 

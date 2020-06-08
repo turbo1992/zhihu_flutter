@@ -21,7 +21,8 @@ class _HomePageState extends State<HomePage> {
               child: null
           ),
         ),
-        theme: GlobalConfig.themeData
+        theme: GlobalConfig.themeData,
+        debugShowCheckedModeBanner: false
     );
   }
 

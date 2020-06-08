@@ -21,7 +21,8 @@ class _IdeaPageState extends State<IdeaPage> {
               child: null
           ),
         ),
-        theme: GlobalConfig.themeData
+        theme: GlobalConfig.themeData,
+        debugShowCheckedModeBanner: false
     );
   }
 
